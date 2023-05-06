@@ -17,9 +17,9 @@
   "author": "Fanto001",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FantoX001/Atlas-MD/issues"
+    "url": "https://github.com/Ayushdeveloper001/Ayush-MD/issues"
   },
-  "homepage": "https://github.com/FantoX001/Atlas-MD#readme",
+  "homepage": "https://github.com/Ayushdeveloper001/Ayush-MD#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
