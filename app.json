@@ -1,0 +1,59 @@
+{
+    
+    "name": "Ayush-MD",
+    "description": "The Future of WhatsApp bots.",
+    "keywords": [
+        "bot",
+        "whatsapp",
+        "stickers",
+        "whatsapp-stickers",
+        "anime",
+        "whatsapp-bot",
+        "whatsapp-sticker-bot",
+        "whatsapp-botto",
+        "baileys",
+        "baileys-md",
+        "md-bot"
+    ],
+    "website": "https://github.com/Ayushdeveloper001/Atlas-MD#readme",
+    "repository": "https://github.com/Ayushdeveloper001/Atlas-MD.git",
+    "logo": "https://i.imgur.com/MClOeqe.jpeg",
+    "success_url": "/",
+    "env": {
+        "PREFIX": {
+            "description": "Prefix of your bot Ex: - , / , # , & etc. Put anythong except @"
+        },
+        "SESSION_ID": {
+            "description": "A random string for your bot session. Which works as an OTP to get qr code. And you have to chane sessioon every time to get a new qr."
+        },
+        "MODS": {
+            "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\" Ex: 16468338933 )"
+        },
+        "MONGODB": {
+            "description": "Your Mongodb URL. If you don't have any make one"
+        }
+        "KING": {
+            "description": "Name of the owner"
+        },
+        "KINGNUM": {
+            "description": "Number of the owner"
+        },
+        "LINKS": {
+            "description": "Your Social Media Links"
+        },
+        "GENDER": {
+            "description": "His or Her"
+        },
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ]
+  }
